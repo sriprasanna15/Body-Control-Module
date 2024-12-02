@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'CAN_RX.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"can_rx_main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "can_rx_main.o" --strict --scatter "CAN_RX.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\CAN_RX.map" -o "CAN_RX.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'CAN_RX.axf'
+### ADS-LD Command File: 'CAN_RX.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'CAN_RX.lnp', Handle=0x0000026C
+### Writing '.lnp' file
+### ADS-LD Command file 'CAN_RX.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

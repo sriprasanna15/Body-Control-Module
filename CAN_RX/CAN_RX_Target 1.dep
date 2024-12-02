@@ -1,0 +1,7 @@
+Dependencies for Project 'CAN_RX', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\can_rx_main.c)(0x673D5688)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "can_rx_main.o" --omf_browse "can_rx_main.crf" --depend "can_rx_main.d")
+I (C:\KeilARM\ARM\INC\Philips\LPC21XX.H)(0x4BB1C2C8)
+I (uart0_header.h)(0x673C152D)
+I (C:\KeilARM\ARM\RV31\INC\stdio.h)(0x4BA15EBE)
+I (can_driver.h)(0x673C2128)
