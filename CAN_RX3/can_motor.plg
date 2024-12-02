@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v24ce1s9\ARM\Can_project\CAN\CAN_MOTOR\can_motor.uvproj
+Project File Date:  11/19/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling can_RX3.c...
+linking...
+Program Size: Code=2624 RO-data=56 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"can_motor.axf" - 0 Error(s), 0 Warning(s).

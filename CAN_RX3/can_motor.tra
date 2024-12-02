@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'can_motor.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"can_rx3.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "can_rx3.o" --strict --scatter "can_motor.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\can_motor.map" -o "can_motor.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'can_motor.axf'
+### ADS-LD Command File: 'can_motor.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'can_motor.lnp', Handle=0x00000258
+### Writing '.lnp' file
+### ADS-LD Command file 'can_motor.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
