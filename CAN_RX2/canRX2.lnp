@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "can_2.o" --strict --scatter "canRX2.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\canRX2.map" -o "canRX2.axf"
